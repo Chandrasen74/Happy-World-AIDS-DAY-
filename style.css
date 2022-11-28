@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  background: #4169E1;
+}
+
+body {
+  margin: 0;
+}
+
+.center-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.band-aid, .band-aid-over {
+  border-radius: 80px !important;
+  width: 580px;
+  height: 180px;
+  border: 15px solid #454D55;
+  background: linear-gradient(#E2EAF9 25%, #FFFFFF 25%);
+}
+
+.band-aid {
+  transform: rotate(45deg);
+  z-index: 2;
+}
+
+.band-aid-over {
+  transform: rotate(135deg);
+  z-index: 8;
+  position: absolute;
+}
+
+.medicine-pad {
+  border-radius: 20px !important;
+  width: 228px;
+  height: 115px;
+  background: #FCCC48;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 4px 8px;
+  background-color: #FC9351;
+  border-radius: 50%;
+  display: inline-block;
+}
